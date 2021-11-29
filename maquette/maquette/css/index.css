@@ -1,0 +1,155 @@
+.article h3{
+    font-size: 32px;
+    line-height: 1.2;
+    color: #1b3c87;
+    font-weight: 900;
+    padding-top: 5%;
+}
+
+.article img {
+    max-width: 640px;
+}
+
+.head_article {
+    display: flex;
+    width: 100%;
+}
+
+.head_article section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.article{
+    display: flex;
+}
+
+.head_article a{
+    background-color: #46dbc9;
+    padding: 10px;
+    text-decoration: none;
+    width: fit-content;
+    border-radius: 8px;
+    color: black !important;
+    font-size: 20px;
+    
+}
+
+.head_article p{
+    width: 80%;
+    font-weight: 400;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.head_article h3{
+    color: #1b3c87;
+    font-weight: 900;
+    line-height: 1,2;
+    font-size: 48px;
+    width: 80%;
+    margin: 0;
+}
+
+.head_article img{
+    max-width: 640px;
+}
+
+.article .article_content{
+    padding-top: 15%;
+    padding-left: 5%; 
+    padding-right: 5%;
+}
+
+.feature{
+    padding: 0 4rem;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.feature_card{
+    width: 300px;
+    margin: 30px 0;
+    border: solid #f5f8ff 2px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 30px;
+  
+}
+
+.feature_content{
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: #e8ebff solid 2px;
+    color: #1b3c87;
+}
+.feature_content h4{
+    font-weight: 900;
+    line-height: 1.2;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.feature_content p{
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.feature_card img{
+    width: 25px;
+    opacity: 0.7;
+    padding: 10px;
+    background-color: #46dbc9;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 15px;
+}
+
+
+.logo-footer {
+    background-color: white;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-footer img {
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+}
+
+.company{
+    margin-top: 30px;
+    width: 100%;
+    background-color: #f5f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company_icon{
+    display: flex;
+    align-items: center;
+}
+
+.company img{
+    max-width: 90px;
+    margin: 20px;
+}
+
+@media screen and (max-width:1023px) {
+.article{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.head_article{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+}

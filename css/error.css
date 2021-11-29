@@ -1,0 +1,71 @@
+#background{
+    background-color: #FBF35A;
+}
+
+html{
+    background-color: #FBF35A;
+
+}
+
+#game_over{
+    margin-top: 0.7%;
+    margin-left: 1%;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#menu{
+    position: absolute;
+    top: 2%;
+    right: 1%;
+}
+
+
+#cadre{
+    border: black solid 10px ;
+    /* margin-right: 28%;
+    margin-left: 28%;
+    margin-top:10%;
+    margin-bottom: 5%; */
+    background-color: white;
+    padding: 3%;
+    text-align: center;
+}
+
+#error img{
+    height: 90px;
+    
+}
+
+#error{
+    text-align: center;
+    font-size: 600%;
+}
+
+#text{
+    font-size: 25%;
+}
+
+
+#pills{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
+#surcadre{
+    border: white 20px solid;
+    margin: auto;
+    max-width: 800px;
+    
+}

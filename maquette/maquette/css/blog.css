@@ -1,0 +1,34 @@
+.img_start{
+    width: 90%;
+    height: 400px;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+h2{
+    color: #1b3c87;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.first{
+    display: block;
+    width: 70%;
+    margin-left: 15%;
+    padding-bottom: 2%;
+}
+
+.second{
+    display: block;
+    width:50%;
+    margin-left: 25%;
+    
+}
+
+.second li{
+    list-style: square;
+}
